@@ -201,6 +201,11 @@ body {
     max-height: 80%;
 }
 
+.modal-content img {
+    max-width:100%;
+    height:auto;
+}
+
 /* Caption of Modal Image */
 #caption {
     margin: auto;
@@ -249,12 +254,6 @@ body {
     cursor: pointer;
 }
 
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-    .modal-content {
-        width: 100%;
-    }
-}
 
 .footer {
     margin-top: 10%;
