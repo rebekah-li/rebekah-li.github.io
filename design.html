@@ -38,12 +38,30 @@
 
     <div class="portfolio">
         <div class="left_container"
+             onclick="display_image('daisy_modal', 'daisy_thumb', 'daisy_img', 'design/daisy_full.jpg')">
+            <img src="design%20tiles/daisy.jpg" alt="Dog in Grass" class="thumbnail" id="daisy_thumb">
+        </div>
+        <div class="right_container"
+             onclick="display_image('whata2f_modal', 'whata2f_thumb', 'whata2f_img', 'design/what_is_a2f.jpg')">
+            <img src="design%20tiles/whata2f.jpg" alt="What is A2F" class="thumbnail" id="whata2f_thumb">
+        </div>
+
+        <div class="left_container"
              onclick="display_image('nswn_modal', 'nswn_thumb', 'nswn_img', 'design/nswn.jpg')">
             <img src="design%20tiles/nswn.jpg" alt="NSWN Flyer" class="thumbnail" id="nswn_thumb">
         </div>
         <div class="right_container"
-             onclick="display_image('froshretreat_modal', 'froshretreat_thumb', 'froshretreat_img', 'design/frosh_retreat.jpg')">
-            <img src="design%20tiles/frosh%20retreat.jpg" alt="Freshmen Retreat Splash" class="thumbnail" id="froshretreat_thumb">
+             onclick="display_image('sk8terboi_modal', 'sk8terboi_thumb', 'sk8terboi_img', 'design/blue_sk8terboi.jpg')">
+            <img src="design%20tiles/sk8terboi.jpg" alt="Anteater Skateboarding" class="thumbnail" id="sk8terboi_thumb">
+        </div>
+
+        <div class="left_container"
+             onclick="display_image('buddy_modal', 'buddy_thumb', 'buddy_img', 'design/buddy_+_rusty.jpg')">
+            <img src="design%20tiles/buddyrusty.jpg" alt="Buddy and Rusty" class="thumbnail" id="buddy_thumb">
+        </div>
+        <div class="right_container"
+             onclick="display_image('wayfinder_modal', 'wayfinder_thumb', 'wayfinder_img', 'design/wayfinder.jpg')">
+            <img src="design%20tiles/wayfinder.jpg" alt="Wayfinder Poster" class="thumbnail" id="wayfinder_thumb">
         </div>
 
         <div class="left_container"
@@ -51,8 +69,8 @@
             <img src="design%20tiles/dumpling.jpg" alt="Dumpling Poster" class="thumbnail" id="dumpling_thumb">
         </div>
         <div class="right_container"
-             onclick="display_image('wayfinder_modal', 'wayfinder_thumb', 'wayfinder_img', 'design/wayfinder.jpg')">
-            <img src="design%20tiles/wayfinder.jpg" alt="Wayfinder Poster" class="thumbnail" id="wayfinder_thumb">
+             onclick="display_image('TC_modal', 'TC_thumb', 'TC_img', 'design/TC_full.jpg')">
+            <img src="design%20tiles/TC.jpg" alt="TC Gift" class="thumbnail" id="TC_thumb">
         </div>
 
         <div class="left_container"
@@ -149,11 +167,29 @@
              onclick="display_image('mock_modal', 'mock_thumb', 'mock_img', 'design/mock.jpg')">
             <img src="design%20tiles/mock.jpg" alt="Mock Interview Splash" class="thumbnail" id="mock_thumb">
         </div>
+        <div class="right_container"
+             onclick="display_image('froshretreat_modal', 'froshretreat_thumb', 'froshretreat_img', 'design/frosh_retreat.jpg')">
+            <img src="design%20tiles/frosh%20retreat.jpg" alt="Freshmen Retreat Splash" class="thumbnail" id="froshretreat_thumb">
+        </div>
 
     </div>
 
 
     <!-- Modals -->
+    <div id="daisy_modal" class="modal">
+        <span class="close" onclick="close_image('daisy_modal')">&times;</span>
+        <div class="modal-content">
+            <img class="modal-content" id="daisy_img">
+        </div>
+    </div>
+
+    <div id="whata2f_modal" class="modal">
+        <span class="close" onclick="close_image('whata2f_modal')">&times;</span>
+        <div class="modal-content">
+            <img class="modal-content" id="whata2f_img">
+        </div>
+    </div>
+
     <div id="nswn_modal" class="modal">
         <span class="close" onclick="close_image('nswn_modal')">&times;</span>
         <div class="modal-content">
@@ -161,10 +197,17 @@
         </div>
     </div>
 
-    <div id="froshretreat_modal" class="modal">
-        <span class="close" onclick="close_image('froshretreat_modal')">&times;</span>
+    <div id="sk8terboi_modal" class="modal">
+        <span class="close" onclick="close_image('sk8terboi_modal')">&times;</span>
         <div class="modal-content">
-            <img class="modal-content" id="froshretreat_img">
+            <img class="modal-content" id="sk8terboi_img">
+        </div>
+    </div>
+
+    <div id="buddy_modal" class="modal">
+        <span class="close" onclick="close_image('buddy_modal')">&times;</span>
+        <div class="modal-content">
+            <img class="modal-content" id="buddy_img">
         </div>
     </div>
 
@@ -186,6 +229,13 @@
         <span class="close" onclick="close_image('fboba_modal')">&times;</span>
         <div class="modal-content">
             <img class="modal-content" id="fboba_img">
+        </div>
+    </div>
+
+    <div id="TC_modal" class="modal">
+        <span class="close" onclick="close_image('TC_modal')">&times;</span>
+        <div class="modal-content">
+            <img class="modal-content" id="TC_img">
         </div>
     </div>
 
@@ -324,6 +374,13 @@
         <span class="close" onclick="close_image('mock_modal')">&times;</span>
         <div class="modal-content">
             <img class="modal-content" id="mock_img">
+        </div>
+    </div>
+
+    <div id="froshretreat_modal" class="modal">
+        <span class="close" onclick="close_image('froshretreat_modal')">&times;</span>
+        <div class="modal-content">
+            <img class="modal-content" id="froshretreat_img">
         </div>
     </div>
 
